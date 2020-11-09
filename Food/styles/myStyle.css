@@ -1,0 +1,130 @@
+body {
+    direction: rtl;
+    font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(#ececec, #fefefe);
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textR {
+    color: black;
+    padding: 20px;
+}
+
+.textS {
+    text-align: center;
+    padding: 10px;
+}
+
+.iconim {
+    width: 25% !important;
+}
+
+    .iconim:hover {
+        transform: translateY(-7px);
+    }
+
+.galler p{
+font-size:20px;
+font-weight:bold;
+}
+
+.galler {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: center !important;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33px;
+    -moz-column-width: 33px;
+    column-width: 33px;
+}
+
+    .galler .pics {
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
+    }
+
+.icons:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    color: white;
+    padding: 13px;
+    margin-top: 20px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        width: 100% !important;
+    }
+
+    .row, .col {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        width: 100%;
+    }
+
+    .galler p {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .row, .col {
+        width: 100%;
+        margin: 0;
+    }
+
+    .responsive {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
